@@ -50,9 +50,10 @@ footer{
     background:#FFC300 ;
     padding: 10px;
     margin: 10px 0;
+    color: white;
 }
 
 #result span{
-    color: #0000;
+    color:white;
     font-weight: bold;
 }
