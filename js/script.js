@@ -33,7 +33,7 @@ function submitAnswers(){
     //Set Correct Answers
 
     //using an array to store answers
-    var answer = ["b","a","b","a","c"];
+    var answer = ["b","a","a","b","d"];
 
     //check the answers
 
