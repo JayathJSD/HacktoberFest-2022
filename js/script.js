@@ -15,14 +15,12 @@ function submitAnswers(){
 
 
     for(i=1; i<=total;i++){
-        /*eval function
 
         if(q1==null || q1 == ''){
             alert("You miss question 1 ");
             return false
         }
-        */
-
+      
         if(eval('q'+i)==null || eval('q'+i) == ''){
             alert("You miss question "+ i);
             return false
@@ -36,12 +34,10 @@ function submitAnswers(){
     var answer = ["b","a","a","b","d"];
 
     //check the answers
-
-    /*
     if(q1==answer[0]){
         score++;
     }
-    */
+
 
     for(var j=0;j<total;j++)
     {
