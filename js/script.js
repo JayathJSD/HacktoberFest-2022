@@ -36,12 +36,10 @@ function submitAnswers(){
     var answer = ["b","a","a","b","d"];
 
     //check the answers
-
-    /*
-    if(q1==answer[0]){
+     if(q1==answer[0]){
         score++;
     }
-    */
+
 
     for(var j=0;j<total;j++)
     {
